@@ -40,7 +40,36 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
+}
+
+.flex {
+  display: flex;
+}
+
+.flex-row {
+  flex-direction: row;
+}
+
+.border {
+  border: 1px solid gray;
+}
+
+.p-1 {
+  padding: 1rem;
+}
+
+.green {
+  color: green;
+}
+
+.gray {
+  color: gray;
+}
+
+.cursor-pointer {
+  cursor: pointer;
 }
