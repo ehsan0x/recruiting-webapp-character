@@ -1,7 +1,6 @@
-import { useState } from 'react';
-import './App.css';
-import { ATTRIBUTE_LIST, CLASS_LIST, SKILL_LIST } from './consts.js';
-
+import { useState } from "react";
+import "./App.css";
+import { ATTRIBUTE_LIST, CLASS_LIST, SKILL_LIST } from "./data/constants";
 
 function App() {
   const [num, setNum] = useState(0);
